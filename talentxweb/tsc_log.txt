@@ -1,0 +1,162 @@
+﻿src/api/__tests__/ApiIntegration.test.ts(207,60): error TS2554: Expected 1 arguments, but got 2.
+src/api/__tests__/CompleteWorkflowIntegration.test.ts(41,9): error TS2322: Type '"FULL_TIME"' is not assignable to type 'EmploymentType'.
+src/api/__tests__/CompleteWorkflowIntegration.test.ts(362,9): error TS2322: Type '"FULL_TIME"' is not assignable to type 'EmploymentType'.
+src/api/__tests__/DatabaseFrontendTypeAlignmentIntegration.test.ts(433,21): error TS2339: Property 'active' does not exist on type 'AttendanceRecordDTO'.
+src/api/__tests__/DatabaseFrontendTypeAlignmentIntegration.test.ts(434,28): error TS2339: Property 'active' does not exist on type 'AttendanceRecordDTO'.
+src/api/__tests__/DatabaseFrontendTypeAlignmentIntegration.test.ts(435,21): error TS2339: Property 'createdBy' does not exist on type 'AttendanceRecordDTO'.
+src/api/__tests__/DatabaseFrontendTypeAlignmentIntegration.test.ts(436,21): error TS2339: Property 'updatedBy' does not exist on type 'AttendanceRecordDTO'.
+src/api/__tests__/DatabaseFrontendTypeAlignmentIntegration.test.ts(437,21): error TS2339: Property 'version' does not exist on type 'AttendanceRecordDTO'.
+src/api/__tests__/DatabaseFrontendTypeAlignmentIntegration.test.ts(438,28): error TS2339: Property 'version' does not exist on type 'AttendanceRecordDTO'.
+src/api/__tests__/DatabaseFrontendTypeAlignmentIntegration.test.ts(511,21): error TS2339: Property 'updatedBy' does not exist on type 'AttendanceRecordDTO'.
+src/api/__tests__/DatabaseFrontendTypeAlignmentIntegration.test.ts(512,21): error TS2339: Property 'version' does not exist on type 'AttendanceRecordDTO'.
+src/api/__tests__/DatabaseFrontendTypeAlignmentIntegration.test.ts(532,21): error TS2339: Property 'active' does not exist on type 'AttendanceRecordDTO'.
+src/api/__tests__/DatabaseFrontendTypeAlignmentIntegration.test.ts(533,21): error TS2339: Property 'createdBy' does not exist on type 'AttendanceRecordDTO'.
+src/api/__tests__/DatabaseFrontendTypeAlignmentIntegration.test.ts(534,21): error TS2339: Property 'updatedBy' does not exist on type 'AttendanceRecordDTO'.
+src/api/__tests__/DatabaseFrontendTypeAlignmentIntegration.test.ts(535,21): error TS2339: Property 'version' does not exist on type 'AttendanceRecordDTO'.
+src/api/__tests__/DependencyInstallationSuccessPropertyTest.test.ts(45,9): error TS2345: Argument of type 'Arbitrary<[string, unknown]>' is not assignable to parameter of type 'Arbitrary<[string, string]>'.
+  Type '[string, unknown]' is not assignable to type '[string, string]'.
+    Type at position 1 in source is not compatible with type at position 1 in target.
+      Type 'unknown' is not assignable to type 'string'.
+src/api/__tests__/DependencyInstallationSuccessPropertyTest.test.ts(96,20): error TS18046: 'version' is of type 'unknown'.
+src/api/__tests__/PackageVersionValidityPropertyTest.test.ts(39,9): error TS2345: Argument of type 'Arbitrary<[string, unknown]>' is not assignable to parameter of type 'Arbitrary<[string, string]>'.
+src/api/__tests__/PackageVersionValidityPropertyTest.test.ts(77,9): error TS2345: Argument of type 'Arbitrary<[string, unknown]>' is not assignable to parameter of type 'Arbitrary<[string, string]>'.
+src/api/__tests__/PackageVersionValidityPropertyTest.test.ts(160,9): error TS2345: Argument of type 'Arbitrary<[string, unknown]>' is not assignable to parameter of type 'Arbitrary<[string, string]>'.
+src/api/__tests__/TypeScriptTypeSafetyPropertyTest.test.ts(47,36): error TS2532: Object is possibly 'undefined'.
+src/api/__tests__/TypeScriptTypeSafetyPropertyTest.test.ts(86,37): error TS2532: Object is possibly 'undefined'.
+src/api/__tests__/TypeScriptTypeSafetyPropertyTest.test.ts(127,113): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/api/__tests__/TypeScriptTypeSafetyPropertyTest.test.ts(128,21): error TS18048: 'interfaceName' is possibly 'undefined'.
+src/api/__tests__/TypeScriptTypeSafetyPropertyTest.test.ts(128,54): error TS18048: 'interfaceName' is possibly 'undefined'.
+src/api/__tests__/TypeScriptTypeSafetyPropertyTest.test.ts(129,19): error TS18048: 'interfaceName' is possibly 'undefined'.
+src/api/__tests__/TypeScriptTypeSafetyPropertyTest.test.ts(129,56): error TS18048: 'interfaceName' is possibly 'undefined'.
+src/api/__tests__/TypeScriptTypeSafetyPropertyTest.test.ts(137,37): error TS2532: Object is possibly 'undefined'.
+src/api/__tests__/TypeScriptTypeSafetyPropertyTest.test.ts(167,32): error TS2532: Object is possibly 'undefined'.
+src/api/__tests__/TypeScriptTypeSafetyPropertyTest.test.ts(213,31): error TS18048: 'importedTypes' is possibly 'undefined'.
+src/api/__tests__/TypeScriptTypeSafetyPropertyTest.test.ts(249,35): error TS2532: Object is possibly 'undefined'.
+src/components/__tests__/DatabaseFrontendTypeAlignmentIntegration.test.tsx(638,12): error TS2375: Type '{ createdAt: string; createdBy: string | undefined; updatedAt: string; updatedBy: string | undefined; version: number | undefined; active: boolean | undefined; compact: false; }' is not assignable to type 'AuditInfoProps' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'createdBy' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/components/common/__tests__/TypeScriptReactIntegrationPropertyTest.test.tsx(218,15): error TS2322: Type 'string' is not assignable to type '"small" | "large" | "medium"'.
+src/components/common/__tests__/TypeScriptReactIntegrationPropertyTest.test.tsx(219,15): error TS2322: Type 'string' is not assignable to type '"danger" | "primary" | "secondary"'.
+src/pages/__tests__/EnumDisplayIntegration.test.tsx(134,20): error TS2339: Property 'getEmployees' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/employeeApi")'.
+src/pages/__tests__/EnumDisplayIntegration.test.tsx(171,20): error TS2339: Property 'getEmployees' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/employeeApi")'.
+src/pages/__tests__/EnumDisplayIntegration.test.tsx(275,22): error TS2339: Property 'getAttendanceRecords' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/attendanceApi")'.
+src/pages/__tests__/EnumDisplayIntegration.test.tsx(285,22): error TS2339: Property 'getAttendanceSummary' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/attendanceApi")'.
+src/pages/__tests__/EnumDisplayIntegration.test.tsx(294,22): error TS2339: Property 'getTodayAttendance' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/attendanceApi")'.
+src/pages/__tests__/EnumDisplayIntegration.test.tsx(322,22): error TS2339: Property 'getAttendanceRecords' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/attendanceApi")'.
+src/pages/__tests__/EnumDisplayIntegration.test.tsx(368,22): error TS2339: Property 'getAttendanceRecords' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/attendanceApi")'.
+src/pages/__tests__/EnumDisplayIntegration.test.tsx(409,22): error TS2339: Property 'getAttendanceRecords' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/attendanceApi")'.
+src/pages/__tests__/EnumDisplayIntegration.test.tsx(449,17): error TS2339: Property 'getLeaveRequests' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/leaveApi")'.
+src/pages/__tests__/EnumDisplayIntegration.test.tsx(459,17): error TS2339: Property 'getLeaveTypes' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/leaveApi")'.
+src/pages/__tests__/EnumDisplayIntegration.test.tsx(496,17): error TS2339: Property 'getLeaveRequests' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/leaveApi")'.
+src/pages/__tests__/EnumDisplayIntegration.test.tsx(542,17): error TS2339: Property 'getLeaveRequests' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/leaveApi")'.
+src/pages/__tests__/FilterDropdownIntegration.test.tsx(93,20): error TS2339: Property 'getEmployees' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/employeeApi")'.
+src/pages/__tests__/FilterDropdownIntegration.test.tsx(120,34): error TS18048: 'statusFilter' is possibly 'undefined'.
+src/pages/__tests__/FilterDropdownIntegration.test.tsx(132,34): error TS18048: 'statusFilter' is possibly 'undefined'.
+src/pages/__tests__/FilterDropdownIntegration.test.tsx(157,22): error TS2339: Property 'getAttendanceRecords' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/attendanceApi")'.
+src/pages/__tests__/FilterDropdownIntegration.test.tsx(158,22): error TS2339: Property 'getAttendanceSummary' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/attendanceApi")'.
+src/pages/__tests__/FilterDropdownIntegration.test.tsx(166,22): error TS2339: Property 'getTodayAttendance' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/attendanceApi")'.
+src/pages/__tests__/FilterDropdownIntegration.test.tsx(244,17): error TS2339: Property 'getLeaveRequests' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/leaveApi")'.
+src/pages/__tests__/FilterDropdownIntegration.test.tsx(245,17): error TS2339: Property 'getLeaveTypes' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/leaveApi")'.
+src/pages/__tests__/FilterDropdownIntegration.test.tsx(311,20): error TS2339: Property 'getEmployees' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/employeeApi")'.
+src/pages/__tests__/FilterDropdownIntegration.test.tsx(317,14): error TS18048: 'employeeFilter' is possibly 'undefined'.
+src/pages/__tests__/FilterDropdownIntegration.test.tsx(322,22): error TS2339: Property 'getAttendanceRecords' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/attendanceApi")'.
+src/pages/__tests__/FilterDropdownIntegration.test.tsx(331,22): error TS2339: Property 'getAttendanceSummary' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/attendanceApi")'.
+src/pages/__tests__/FilterDropdownIntegration.test.tsx(339,22): error TS2339: Property 'getTodayAttendance' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/attendanceApi")'.
+src/pages/__tests__/FilterDropdownIntegration.test.tsx(350,17): error TS2339: Property 'getLeaveRequests' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/leaveApi")'.
+src/pages/__tests__/FilterDropdownIntegration.test.tsx(359,17): error TS2339: Property 'getLeaveTypes' does not exist on type 'typeof import("C:/ProjectDec2025/TalentX/talentxweb/src/api/leaveApi")'.
+src/types/__tests__/AuditFieldsConsistencyPropertyTest.test.ts(125,17): error TS2375: Type '{ active: boolean | undefined; createdBy: string | undefined; updatedBy: string | undefined; version: number | undefined; }' is not assignable to type 'Partial<AttendanceRecord>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'active' are incompatible.
+    Type 'boolean | undefined' is not assignable to type 'boolean'.
+      Type 'undefined' is not assignable to type 'boolean'.
+src/types/__tests__/BackwardCompatibilityPropertyTest.test.ts(276,38): error TS2339: Property 'compatibilityAliases' does not exist on type '{ requiredFields: string[]; optionalFields: string[]; compatibilityAliases: string[]; } | { requiredFields: string[]; optionalFields: string[]; compatibilityAliases: string[]; } | { requiredFields: string[]; optionalFields: string[]; compatibilityAliases: string[]; } | ... 4 more ... | { ...; }'.
+  Property 'compatibilityAliases' does not exist on type '{ requiredFields: string[]; optionalFields: string[]; newOptionalFields: string[]; }'.
+src/types/__tests__/BackwardCompatibilityPropertyTest.test.ts(279,34): error TS7006: Parameter 'alias' implicitly has an 'any' type.
+src/types/__tests__/BackwardCompatibilityPropertyTest.test.ts(332,15): error TS2739: Type '{ id: number; employeeId: number; leaveTypeId: number; startDate: string; endDate: string; totalDays: number; status: LeaveStatus.PENDING; }' is missing the following properties from type 'LeaveRequest': createdAt, updatedAt
+src/types/__tests__/BackwardCompatibilityPropertyTest.test.ts(348,15): error TS2739: Type '{ id: number; employeeId: number; attendanceDate: string; status: AttendanceStatus.PRESENT; }' is missing the following properties from type 'AttendanceRecord': createdAt, updatedAt
+src/types/__tests__/BackwardCompatibilityPropertyTest.test.ts(364,11): error TS2322: Type '"IN_PROGRESS"' is not assignable to type 'PerformanceReviewStatus'.
+src/types/__tests__/BackwardCompatibilityPropertyTest.test.ts(371,15): error TS2739: Type '{ id: number; organizationId: number; name: string; planType: BenefitPlanType.HEALTH_INSURANCE; }' is missing the following properties from type 'BenefitPlan': costFrequency, isActive, createdAt, updatedAt
+src/types/__tests__/BackwardCompatibilityPropertyTest.test.ts(382,15): error TS2741: Property 'createdAt' is missing in type '{ id: number; organizationId: number; assetType: types.AssetType.LAPTOP; status: types.AssetStatus.AVAILABLE; }' but required in type 'Asset'.
+src/types/__tests__/BackwardCompatibilityPropertyTest.test.ts(412,40): error TS2551: Property 'newOptionalFields' does not exist on type '{ requiredFields: string[]; optionalFields: string[]; compatibilityAliases: string[]; } | { requiredFields: string[]; optionalFields: string[]; compatibilityAliases: string[]; } | { requiredFields: string[]; optionalFields: string[]; compatibilityAliases: string[]; } | ... 4 more ... | { ...; }'. Did you mean 'optionalFields'?
+  Property 'newOptionalFields' does not exist on type '{ requiredFields: string[]; optionalFields: string[]; compatibilityAliases: string[]; }'.
+src/types/__tests__/BackwardCompatibilityPropertyTest.test.ts(416,52): error TS7006: Parameter 'field' implicitly has an 'any' type.
+src/types/__tests__/BackwardCompatibilityPropertyTest.test.ts(437,28): error TS2339: Property 'compatibilityAliases' does not exist on type '{ requiredFields: string[]; optionalFields: string[]; compatibilityAliases: string[]; } | { requiredFields: string[]; optionalFields: string[]; compatibilityAliases: string[]; } | { requiredFields: string[]; optionalFields: string[]; compatibilityAliases: string[]; } | ... 4 more ... | { ...; }'.
+  Property 'compatibilityAliases' does not exist on type '{ requiredFields: string[]; optionalFields: string[]; newOptionalFields: string[]; }'.
+src/types/__tests__/BooleanTypeConversionPropertyTest.test.ts(197,17): error TS2375: Type '{ isHalfDay: boolean | undefined; isEmergency: boolean | undefined; }' is not assignable to type 'Partial<LeaveRequest>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'isHalfDay' are incompatible.
+    Type 'boolean | undefined' is not assignable to type 'boolean'.
+src/types/__tests__/BooleanTypeConversionPropertyTest.test.ts(221,17): error TS2375: Type '{ active: boolean | undefined; }' is not assignable to type 'Partial<LeaveRequest>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'active' are incompatible.
+    Type 'boolean | undefined' is not assignable to type 'boolean'.
+src/types/__tests__/BooleanTypeConversionPropertyTest.test.ts(222,17): error TS2375: Type '{ active: boolean | undefined; }' is not assignable to type 'Partial<AttendanceRecord>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'active' are incompatible.
+    Type 'boolean | undefined' is not assignable to type 'boolean'.
+src/types/__tests__/BooleanTypeConversionPropertyTest.test.ts(223,17): error TS2375: Type '{ active: boolean | undefined; }' is not assignable to type 'Partial<PerformanceReview>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'active' are incompatible.
+    Type 'boolean | undefined' is not assignable to type 'boolean'.
+src/types/__tests__/BooleanTypeConversionPropertyTest.test.ts(224,17): error TS2375: Type '{ active: boolean | undefined; }' is not assignable to type 'Partial<BenefitPlan>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'active' are incompatible.
+    Type 'boolean | undefined' is not assignable to type 'boolean'.
+src/types/__tests__/BooleanTypeConversionPropertyTest.test.ts(225,17): error TS2375: Type '{ active: boolean | undefined; }' is not assignable to type 'Partial<PayrollRun>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'active' are incompatible.
+    Type 'boolean | undefined' is not assignable to type 'boolean'.
+src/types/__tests__/BooleanTypeConversionPropertyTest.test.ts(425,17): error TS2375: Type '{ active: boolean | undefined; isPrimaryRole: boolean | undefined; }' is not assignable to type 'Partial<UserRole>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'active' are incompatible.
+    Type 'boolean | undefined' is not assignable to type 'boolean'.
+src/types/__tests__/BooleanTypeConversionPropertyTest.test.ts(448,17): error TS2375: Type '{ active: boolean | undefined; }' is not assignable to type 'Partial<RolePermission>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'active' are incompatible.
+    Type 'boolean | undefined' is not assignable to type 'boolean'.
+src/types/__tests__/BooleanTypeConversionPropertyTest.test.ts(488,13): error TS2375: Type '{ isHalfDay: undefined; isEmergency: undefined; active: undefined; }' is not assignable to type 'Partial<LeaveRequest>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'isHalfDay' are incompatible.
+    Type 'undefined' is not assignable to type 'boolean'.
+src/types/__tests__/BooleanTypeConversionPropertyTest.test.ts(494,13): error TS2375: Type '{ active: undefined; }' is not assignable to type 'Partial<AttendanceRecord>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'active' are incompatible.
+    Type 'undefined' is not assignable to type 'boolean'.
+src/types/__tests__/BooleanTypeConversionPropertyTest.test.ts(498,13): error TS2375: Type '{ active: undefined; }' is not assignable to type 'Partial<PerformanceReview>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'active' are incompatible.
+    Type 'undefined' is not assignable to type 'boolean'.
+src/types/__tests__/CompleteFieldMappingPropertyTest.test.ts(208,9): error TS18048: 'dbColumns' is possibly 'undefined'.
+src/types/__tests__/CompleteFieldMappingPropertyTest.test.ts(261,9): error TS18048: 'dbColumns' is possibly 'undefined'.
+src/types/__tests__/CompleteFieldMappingPropertyTest.test.ts(310,9): error TS18048: 'dbColumns' is possibly 'undefined'.
+src/types/__tests__/CompleteFieldMappingPropertyTest.test.ts(336,9): error TS18048: 'dbColumns' is possibly 'undefined'.
+src/types/__tests__/CompleteFieldMappingPropertyTest.test.ts(362,9): error TS18048: 'dbColumns' is possibly 'undefined'.
+src/types/__tests__/CompleteFieldMappingPropertyTest.test.ts(388,9): error TS18048: 'dbColumns' is possibly 'undefined'.
+src/types/__tests__/CompleteFieldMappingPropertyTest.test.ts(414,9): error TS18048: 'dbColumns' is possibly 'undefined'.
+src/types/__tests__/CompleteFieldMappingPropertyTest.test.ts(528,20): error TS18048: 'columns' is possibly 'undefined'.
+src/types/__tests__/LeaveRequestCompletenessPropertyTest.test.ts(112,17): error TS2375: Type '{ isHalfDay: boolean | undefined; isEmergency: boolean | undefined; active: boolean | undefined; }' is not assignable to type 'Partial<LeaveRequest>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'isHalfDay' are incompatible.
+    Type 'boolean | undefined' is not assignable to type 'boolean'.
+src/types/__tests__/LeaveRequestCompletenessPropertyTest.test.ts(168,17): error TS2375: Type '{ isHalfDay: boolean | undefined; halfDayPeriod: string | undefined; }' is not assignable to type 'Partial<LeaveRequest>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'isHalfDay' are incompatible.
+    Type 'boolean | undefined' is not assignable to type 'boolean'.
+src/types/__tests__/LeaveRequestCompletenessPropertyTest.test.ts(194,17): error TS2375: Type '{ isEmergency: boolean | undefined; emergencyContact: string | undefined; contactDetails: string | undefined; }' is not assignable to type 'Partial<LeaveRequest>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'isEmergency' are incompatible.
+    Type 'boolean | undefined' is not assignable to type 'boolean'.
+src/types/__tests__/LeaveRequestCompletenessPropertyTest.test.ts(222,17): error TS2375: Type '{ attachmentPath: string | undefined; }' is not assignable to type 'Partial<LeaveRequest>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'attachmentPath' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/types/__tests__/LeaveRequestCompletenessPropertyTest.test.ts(244,17): error TS2375: Type '{ active: boolean | undefined; createdBy: string | undefined; updatedBy: string | undefined; version: number | undefined; }' is not assignable to type 'Partial<LeaveRequest>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'active' are incompatible.
+    Type 'boolean | undefined' is not assignable to type 'boolean'.
+src/types/__tests__/LeaveRequestCompletenessPropertyTest.test.ts(288,17): error TS2375: Type '{ id: number; employeeId: number; leaveTypeId: number; startDate: string | undefined; endDate: string | undefined; totalDays: number; status: LeaveStatus; createdAt: string; ... 6 more ...; active: boolean | undefined; }' is not assignable to type 'LeaveRequest' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'startDate' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/types/__tests__/NamingConventionConsistencyPropertyTest.test.ts(125,19): error TS2532: Object is possibly 'undefined'.
+src/types/__tests__/NamingConventionConsistencyPropertyTest.test.ts(126,38): error TS2532: Object is possibly 'undefined'.
+src/types/__tests__/NamingConventionConsistencyPropertyTest.test.ts(126,73): error TS2532: Object is possibly 'undefined'.
+src/types/__tests__/NestedObjectTypeSafetyPropertyTest.test.ts(192,19): error TS2375: Type '{ organizationName: string | undefined; departmentName: string | undefined; departmentCode: string | undefined; locationName: string | undefined; managerName: string | undefined; ... 12 more ...; updatedAt: string; }' is not assignable to type 'Employee' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'organizationName' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/types/__tests__/NumericPrecisionDocumentationPropertyTest.test.ts(101,48): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/types/__tests__/PayrollRunCompletenessPropertyTest.test.ts(192,17): error TS2375: Type '{ id: number; organizationId: number; name: string; payPeriodStart: string | undefined; payPeriodEnd: string | undefined; payDate: string | undefined; status: PayrollRunStatus; ... 6 more ...; active: boolean | undefined; }' is not assignable to type 'PayrollRun' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'payPeriodStart' are incompatible.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/types/__tests__/PayrollRunCompletenessPropertyTest.test.ts(256,17): error TS2375: Type '{ active: boolean | undefined; createdBy: string | undefined; updatedBy: string | undefined; version: number | undefined; }' is not assignable to type 'Partial<PayrollRun>' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'active' are incompatible.
+    Type 'boolean | undefined' is not assignable to type 'boolean'.
